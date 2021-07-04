@@ -1,0 +1,298 @@
+/*      nav-bar styles    */
+
+/*NAV MENU*/
+
+.navMenu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    top: 0%;
+    width: 100%;
+}
+
+.nav-logo{
+    display: flex;
+    text-decoration: none;
+    width:3rem;
+    font-family: 'Mate SC', serif;
+    font-size: 2.5em;
+    text-align: center;
+    color: silver;
+    border-right: none;
+}
+.nav-items{
+    display: flex;
+    align-content: space-between;
+    list-style-type: none;
+}
+
+ .menuItem a{
+    font-family: 'Staatliches', cursive;
+    display:block;
+    padding: 15px;
+    border-right: silver;
+    text-decoration: none;
+    color: white;
+}
+.menuItem a:hover{
+    background-color: gray;
+    transform: rotate(-10deg);
+}
+
+.active{
+    background-color: silver;
+    transform: translateY(15px);
+}
+.active a:hover{
+    transform: rotate(0deg);
+    background-color: silver;
+}
+/* --------------- */
+/*----general settings----*/
+body{
+    background-image:linear-gradient(155deg, black, #5C5C5C);
+}
+
+h1{
+    font-size: 5em;
+}
+
+h3{
+    font-size: 3em;
+}
+body section{
+    font-family: 'Mate SC', serif;
+    color: silver;
+    margin: auto;
+    text-align: center;
+    
+}
+/*------------*/
+
+/*-----HOME-----*/ 
+#home section{
+    height: 100vh;
+}
+/*------------------*/
+
+
+/*------MIEMBROS------*/
+#miembros {
+    height: 100vh;
+}
+.miembros{
+    display:grid;
+    grid-template-areas: 
+    "foto-eze redes-eze"
+    "foto-joan redes-joan"
+    "foto-marce redes-marce"
+    "foto-leo redes-leo"
+    "foto-shun redes-shun";
+}
+
+.miembros-eze{
+    grid-area: "foto-eze";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.eze-redes{
+    grid-area: "redes-eze";
+}
+
+.miembros-joanma{
+    grid-area: "foto-joan";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.joanma-redes{
+    grid-area: "redes-joan";}
+
+ .miembros-marce{
+        grid-area: "foto-marce";
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+.marce-redes{
+        grid-area: "redes-marce";}
+        
+.miembros-leo{
+    grid-area: "foto-leo";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.leo-redes{
+    grid-area: "redes-leo";
+}
+.miembros-shun{
+    grid-area: "foto-shun";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shun-redes{
+    grid-area: "redes-shun";
+}
+
+
+.miembros-eze:hover{
+    transform: scale(1.5);
+}
+
+.miembros-joanma:hover{
+    transform: scale(1.5);
+}
+.miembros-marce:hover{
+    transform: scale(1.5);
+}
+.miembros-leo:hover{
+    transform: scale(1.5);
+}
+.miembros-shun:hover{
+    transform: scale(1.5);
+}
+/*----------------*/
+
+
+/*------Discos------*/
+  #albums{
+    display: grid;
+    grid-template-areas: 
+    "titulo titulo titulo"
+    "disco1 disco2 disco3"
+    "lista1 lista2 lista3"
+    "yt1 yt2 yt3";
+    align-items: center;
+}
+
+.titulo{
+    grid-area: titulo;
+}
+.disco1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: disco2;
+}
+.lista1{
+    grid-area: lista2;
+}
+.yt1{
+    grid-area: yt2;
+}
+
+#albums a{
+    color: red;
+    text-decoration: underline white;
+}
+/*-------*/
+/*-----FORM----*/
+label{
+    font-family: 'Mate SC', serif;
+}
+form{
+    margin:auto;
+    text-align: center;
+    max-width: 400px;
+    font-family: 'Mate SC', serif;
+    color: silver;
+ 
+}
+label{
+    font-size: 1.5em;
+    display: inline-block;
+    padding-bottom:10px;
+    padding-top:10px
+}
+input{
+    padding: 15px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    box-shadow: 3px grey;
+    text-align: center;
+}
+select{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+    padding:15px;
+}
+input[type=submit] {
+    font-family: 'Mate SC', serif;
+    background-color: black;
+    border: none ;
+    display: inline-block;
+    width: 50%;
+    color: silver;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#reset{   
+    font-family: 'Mate SC', serif;;
+    background-color: black;
+    box-shadow: 4px silver;
+    display: inline-block;
+    width: 50%;
+    border: none;
+    color: silver;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+form p{
+    margin-bottom: 2px;
+}
+input[type=checkbox]{
+    color: silver;
+}
+/*---------------------*/
+
+/*------SHOWS-------*/
+#shows{
+    display: grid;
+    grid-template-areas:
+    "titulo titulo titulo"
+    "fecha1 fecha2 fecha3"
+    "galeria1 galeria2 galeria3"
+    ;
+    grid-column-gap: 15px;
+    }
+    
+ #shows .titulo{
+     grid-area: titulo;
+ }
+ #shows .fecha1{
+    grid-area: fecha1;
+}   
+#shows .fecha2{
+    grid-area: fecha2;
+}   
+#shows .fecha3{
+    grid-area: fecha3;
+}   
+#shows .galeria1{
+    grid-area: galeria1;
+}   
+#shows .galeria2{
+    grid-area: galeria2;
+}   
+#shows .galeria3{
+    grid-area: galeria3;
+}      
+footer{
+    color: white ;
+    text-decoration: none;
+    text-align: center;
+    margin:auto;
+    padding-top: 25px;
+}
+/*-----SHOWS-----*/

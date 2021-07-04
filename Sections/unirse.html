@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles\styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mate+SC&family=Roboto:wght@100;300;400&family=Staatliches&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>Unete!</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class='navMenu'>
+                <a href="../index.html" class='nav-logo'><img src="../Media/Savage s.jpg"  alt="Logo Savage" height=40px>Savage</a>
+                <ul class="nav-items">
+                    <li class= "menuItem"><a href="../index.html">Home</a></li>
+                    <li class="menuItem"><a href="quienes-somos.html">¿Quienes Somos?</a></li>
+                    <li class="menuItem"><a href="discos.html">Discos</a></li>
+                    <li class="menuItem"><a href="shows.html">Shows</a></li>
+                    <li class="menuItem active"><a href="unirse.html">Únete!</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="newsletter">
+    <h1>¿Queres enterarte de todo antes que nadie?</h1>
+    
+    <h3>Unite a nuestra newsletter!</h3>
+    </section>
+    <form action="" method="POST">
+        <label for="name">Tu nombre:</label>
+        <input type="text"  id="name" name="name" placeholder="Nombre">
+        <label for="email">Correo Electronico</label>
+        <input type="email" id="email" name="email" placeholder="usuario@mail.com">
+        <label for="birthday">Fecha de nacimiento</label>
+        <input type="date" name="birthday" id="birthday">
+        <label for="nos-conoce">¿Como nos conociste?</label>
+        <select name="nos-conoce" id="nos-conoce">
+            <option value="Youtube">YouTube</option>
+            <option value="Facebook">Facebook</option>
+            <option value="Instagram">Instagram</option>
+            <option value="Spotify">Spotify</option>
+            <option value="Shows">Shows</option>
+            <option value="Otro">Otro</option>
+        </select>
+        <p>Acepto recibir noticias sobre Savage</p>
+        <input type="checkbox" name="acepto" id="acepto" >
+<input type="submit" value="Enviar">
+<input type="reset" id="reset" value="Resetear">
+
+    </form>
+
+    <footer>
+        <nav> Home|¿Quienes somos?|Discos|Shows|Redes</nav>
+        <p>Pagina web desarrollada por: Federico Altrui</p>
+    </footer>
+</body>
+</html>
