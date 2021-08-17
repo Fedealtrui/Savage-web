@@ -1,0 +1,117 @@
+@media (max-width: 480px) {
+    .nav-logo{
+       justify-content: center;
+        margin: auto;
+    }
+    .nav-items{
+     display: none;
+    }
+
+#home{
+    height: 100vh;
+    h1{
+        font-size: 3em;
+    }
+    iframe{
+        max-width: 100vw;
+        height: 400px;
+    }
+}
+#newsletter{
+
+    h1{
+    font-size: 2.5em ;
+    }
+}
+
+form{
+    max-width: 300px;
+    margin: auto;
+}
+    #banda{
+        img{
+            max-width: 300px;
+
+        }
+    }
+
+    #shows{
+        max-width: 100vw;
+        h1{
+            font-size: 2em;
+        }
+    img{
+    max-width: 100vw; 
+    }
+iframe{
+    width:100vw;
+    height: 50vh;
+
+}
+    }
+    
+}
+
+@media (min-width:481px) {
+    
+    #banda{
+        img{
+            max-width: 600px;
+
+        }
+    }
+
+    #shows{
+        max-width: 100vw;
+        h1{
+            font-size: 2em;
+        }
+    img{
+    max-width: 100vw; 
+    }
+iframe{
+    width:100vw;
+    height: 100vh;
+
+}
+    
+}
+}
+footer{
+    color: black;
+.footer-nav{
+    list-style-type: none;
+    li{
+        display: inline-block;
+        a{
+            text-align: center;
+            color:black;
+        }
+    }
+}
+
+.footer-nav{
+    list-style-type: none;
+    li{
+        display: inline-block;
+        a{
+            text-align: center;
+            color:black;
+        }
+    }
+}.home-footer-nav{
+    list-style-type: none;
+    li{
+        display: inline-block;
+
+        a{
+            font-size: 1.5em;
+            text-align: center;
+            text-decoration: none;
+            font-family: 'Mate SC', serif;
+            color:silver;
+            border-right: 1px solid black ;
+        }
+    }
+}
+}

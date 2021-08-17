@@ -1,0 +1,919 @@
+header nav {
+  background: #d9998b;
+  background: radial-gradient(circle, #d9998b 23%, #d99f7e 73%);
+  margin-top: 10px;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-height: 75px;
+}
+
+header ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header ul li .logo-libelula img {
+  width: 150px;
+}
+
+header ul .nav-logo {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  color: blanchedalmond;
+}
+
+header ul .nav-item {
+  list-style-type: none;
+  color: #732036;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 75px;
+  width: 100px;
+}
+
+header ul .nav-item a {
+  font-size: 0.85em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  color: #732036;
+}
+
+header ul a:hover {
+  color: #D9998B;
+  background-color: #732036;
+  border-radius: 20px;
+}
+
+header ul .nav-item:hover {
+  background-color: #732036;
+  border-radius: 20px;
+}
+
+header ul .nav-item:hover a {
+  color: #D9998B;
+}
+
+.main-title {
+  font-family: 'Kristi', cursive;
+}
+
+.footer-nav {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-nav .footer-item {
+  padding: 5px;
+}
+
+.footer-nav .footer-item a {
+  color: #732036;
+  text-decoration: none;
+}
+
+body {
+  background: #d9998b;
+  background: radial-gradient(circle, #d9998b 23%, #d99f7e 73%);
+}
+
+#home {
+  height: 100vh;
+}
+
+#home h1 {
+  text-align: center;
+  font-size: 4.5em;
+  color: #732036;
+}
+
+#home .home-text {
+  text-align: center;
+}
+
+#home .carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#home .carousel .carousel-item img {
+  max-height: 40vh;
+  width: 400px;
+}
+
+/*------ SAGRADA MADRE -------*/
+#sagrada-madre {
+  max-width: 100vw;
+}
+
+#sagrada-madre div {
+  margin-bottom: 10px;
+}
+
+#sagrada-madre h2 {
+  font-size: 2em;
+  text-align: center;
+  color: #732036;
+}
+
+#sagrada-madre #sahumerios {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "title title title" "p1 p2 p3" "p4 p5 p6" "p7 p8 p9" "p10 p11 p12" "p13 p14 p15";
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#sagrada-madre #sahumerios h3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: title;
+  text-align: center;
+  color: #732036;
+}
+
+#sagrada-madre #sahumerios .prod1 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: p1;
+}
+
+#sagrada-madre #sahumerios .prod1 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumerios .prod2 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: p2;
+}
+
+#sagrada-madre #sahumerios .prod2 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumerios .prod3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: p3;
+}
+
+#sagrada-madre #sahumerios .prod3 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumerios .prod4 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: p4;
+}
+
+#sagrada-madre #sahumerios .prod4 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumerios .prod5 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: p5;
+}
+
+#sagrada-madre #sahumerios .prod5 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumerios .prod6 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: p6;
+}
+
+#sagrada-madre #sahumerios .prod6 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumerios .prod7 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: p7;
+}
+
+#sagrada-madre #sahumerios .prod7 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumerios .prod8 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  grid-area: p8;
+}
+
+#sagrada-madre #sahumerios .prod8 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumerios .prod9 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 3;
+  grid-area: p9;
+}
+
+#sagrada-madre #sahumerios .prod9 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumerios .prod10 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: p10;
+}
+
+#sagrada-madre #sahumerios .prod10 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumerios .prod11 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 2;
+  grid-area: p11;
+}
+
+#sagrada-madre #sahumerios .prod11 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumerios .prod12 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+  grid-area: p12;
+}
+
+#sagrada-madre #sahumerios .prod12 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumerios .prod13 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 1;
+  grid-area: p13;
+}
+
+#sagrada-madre #sahumerios .prod13 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumerios .prod14 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 2;
+  grid-area: p14;
+}
+
+#sagrada-madre #sahumerios .prod14 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumerios .prod15 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 3;
+  grid-area: p15;
+}
+
+#sagrada-madre #sahumerios .prod15 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumerios .prod16 {
+  grid-area: p16;
+}
+
+#sagrada-madre #sahumerios .prod16 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumerios .prod17 {
+  grid-area: p17;
+}
+
+#sagrada-madre #sahumerios .prod17 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumerios .prod18 {
+  grid-area: p18;
+}
+
+#sagrada-madre #sahumerios .prod18 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumerios .prod19 {
+  grid-area: p19;
+}
+
+#sagrada-madre #sahumerios .prod19 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumerios .prod20 {
+  grid-area: p20;
+}
+
+#sagrada-madre #sahumerios .prod20 img {
+  width: 200px;
+}
+
+#sagrada-madre #bombitas {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "title title title" "p1 p2 p3" "p4 p5 p6" "p7 p8 p9";
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#sagrada-madre #bombitas h3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: title;
+  text-align: center;
+  color: #732036;
+}
+
+#sagrada-madre #bombitas .bomba1 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: p1;
+}
+
+#sagrada-madre #bombitas .bomba1 img {
+  width: 200px;
+}
+
+#sagrada-madre #bombitas .bomba2 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: p2;
+}
+
+#sagrada-madre #bombitas .bomba2 img {
+  width: 200px;
+}
+
+#sagrada-madre #bombitas .bomba3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: p3;
+}
+
+#sagrada-madre #bombitas .bomba3 img {
+  width: 200px;
+}
+
+#sagrada-madre #bombitas .bomba4 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: p4;
+}
+
+#sagrada-madre #bombitas .bomba4 img {
+  width: 200px;
+}
+
+#sagrada-madre #bombitas .bomba5 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: p5;
+}
+
+#sagrada-madre #bombitas .bomba5 img {
+  width: 200px;
+}
+
+#sagrada-madre #bombitas .bomba6 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: p6;
+}
+
+#sagrada-madre #bombitas .bomba6 img {
+  width: 200px;
+}
+
+#sagrada-madre #bombitas .bomba7 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: p7;
+}
+
+#sagrada-madre #bombitas .bomba7 img {
+  width: 200px;
+}
+
+#sagrada-madre #bombitas .bomba8 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  grid-area: p8;
+}
+
+#sagrada-madre #bombitas .bomba8 img {
+  width: 200px;
+}
+
+#sagrada-madre #bombitas .bomba9 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 3;
+  grid-area: p9;
+}
+
+#sagrada-madre #bombitas .bomba9 img {
+  width: 200px;
+}
+
+#sagrada-madre #bombitas .bomba10 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: p10;
+}
+
+#sagrada-madre #bombitas .bomba10 img {
+  width: 200px;
+}
+
+#sagrada-madre #bombitas .bomba11 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 2;
+  grid-area: p11;
+}
+
+#sagrada-madre #bombitas .bomba11 img {
+  width: 200px;
+}
+
+#sagrada-madre #bombitas .bomba12 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+  grid-area: p12;
+}
+
+#sagrada-madre #bombitas .bomba12 img {
+  width: 200px;
+}
+
+#sagrada-madre #bombitas .bomba13 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 1;
+  grid-area: p13;
+}
+
+#sagrada-madre #bombitas .bomba13 img {
+  width: 200px;
+}
+
+#sagrada-madre #bombitas .bomba14 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 2;
+  grid-area: p14;
+}
+
+#sagrada-madre #bombitas .bomba14 img {
+  width: 200px;
+}
+
+#sagrada-madre #bombitas .bomba15 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 3;
+  grid-area: p15;
+}
+
+#sagrada-madre #bombitas .bomba15 img {
+  width: 200px;
+}
+
+#sagrada-madre #piramides {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "title title title" "p1 p2 p3" "p4 p5 p6";
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#sagrada-madre #piramides h3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: title;
+  text-align: center;
+  color: #732036;
+}
+
+#sagrada-madre #piramides .piramide1 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: p1;
+}
+
+#sagrada-madre #piramides .piramide1 img {
+  width: 200px;
+}
+
+#sagrada-madre #piramides .piramide2 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: p2;
+}
+
+#sagrada-madre #piramides .piramide2 img {
+  width: 200px;
+}
+
+#sagrada-madre #piramides .piramide3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: p3;
+}
+
+#sagrada-madre #piramides .piramide3 img {
+  width: 200px;
+}
+
+#sagrada-madre #piramides .piramide4 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: p4;
+}
+
+#sagrada-madre #piramides .piramide4 img {
+  width: 200px;
+}
+
+#sagrada-madre #piramides .piramide5 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: p5;
+}
+
+#sagrada-madre #piramides .piramide5 img {
+  width: 200px;
+}
+
+#sagrada-madre #piramides .piramide6 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: p6;
+}
+
+#sagrada-madre #piramides .piramide6 img {
+  width: 200px;
+}
+
+#sagrada-madre #piramides .piramide7 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: p7;
+}
+
+#sagrada-madre #piramides .piramide7 img {
+  width: 200px;
+}
+
+#sagrada-madre #piramides .piramide8 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  grid-area: p8;
+}
+
+#sagrada-madre #piramides .piramide8 img {
+  width: 200px;
+}
+
+#sagrada-madre #piramides .piramide9 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 3;
+  grid-area: p9;
+}
+
+#sagrada-madre #piramides .piramide9 img {
+  width: 200px;
+}
+
+#sagrada-madre #piramides .piramide10 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: p10;
+}
+
+#sagrada-madre #piramides .piramide10 img {
+  width: 200px;
+}
+
+#sagrada-madre #piramides .piramide11 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 2;
+  grid-area: p11;
+}
+
+#sagrada-madre #piramides .piramide11 img {
+  width: 200px;
+}
+
+#sagrada-madre #piramides .piramide12 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+  grid-area: p12;
+}
+
+#sagrada-madre #piramides .piramide12 img {
+  width: 200px;
+}
+
+#sagrada-madre #piramides .piramide13 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 1;
+  grid-area: p13;
+}
+
+#sagrada-madre #piramides .piramide13 img {
+  width: 200px;
+}
+
+#sagrada-madre #piramides .piramide14 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 2;
+  grid-area: p14;
+}
+
+#sagrada-madre #piramides .piramide14 img {
+  width: 200px;
+}
+
+#sagrada-madre #piramides .piramide15 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 3;
+  grid-area: p15;
+}
+
+#sagrada-madre #piramides .piramide15 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumos {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "title title title" "p1 p2 p3" "p4 p5 p6" "p7 p8 p9" "p10 p11 p12" "p13 p14 p15";
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#sagrada-madre #sahumos h3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: title;
+  text-align: center;
+  color: #732036;
+}
+
+#sagrada-madre #sahumos .sahumo1 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: p1;
+}
+
+#sagrada-madre #sahumos .sahumo1 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumos .sahumo2 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: p2;
+}
+
+#sagrada-madre #sahumos .sahumo2 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumos .sahumo3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: p3;
+}
+
+#sagrada-madre #sahumos .sahumo3 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumos .sahumo4 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: p4;
+}
+
+#sagrada-madre #sahumos .sahumo4 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumos .sahumo5 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: p5;
+}
+
+#sagrada-madre #sahumos .sahumo5 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumos .sahumo6 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: p6;
+}
+
+#sagrada-madre #sahumos .sahumo6 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumos .sahumo7 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: p7;
+}
+
+#sagrada-madre #sahumos .sahumo7 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumos .sahumo8 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  grid-area: p8;
+}
+
+#sagrada-madre #sahumos .sahumo8 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumos .sahumo9 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 3;
+  grid-area: p9;
+}
+
+#sagrada-madre #sahumos .sahumo9 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumos .sahumo10 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: p10;
+}
+
+#sagrada-madre #sahumos .sahumo10 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumos .sahumo11 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 2;
+  grid-area: p11;
+}
+
+#sagrada-madre #sahumos .sahumo11 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumos .sahumo12 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+  grid-area: p12;
+}
+
+#sagrada-madre #sahumos .sahumo12 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumos .sahumo13 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 1;
+  grid-area: p13;
+}
+
+#sagrada-madre #sahumos .sahumo13 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumos .sahumo14 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 2;
+  grid-area: p14;
+}
+
+#sagrada-madre #sahumos .sahumo14 img {
+  width: 200px;
+}
+
+#sagrada-madre #sahumos .sahumo15 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 3;
+  grid-area: p15;
+}
+
+#sagrada-madre #sahumos .sahumo15 img {
+  width: 200px;
+}
+
+#contacto {
+  height: 50vh;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#contacto h3 {
+  text-align: center;
+  color: #732036;
+}
+
+#contacto p {
+  margin: auto;
+}
+
+#contacto p .whatsapp {
+  text-decoration: none;
+  color: green;
+}
+
+#contacto p .instagram {
+  text-decoration: none;
+  color: #E1306C;
+}
+
+.to-top {
+  opacity: 0.3;
+  position: fixed;
+  border-radius: 50px;
+  float: right;
+  bottom: 50px;
+  left: 50px;
+  display: block;
+  height: 50px;
+  width: auto;
+}
+
+.wp-button {
+  position: fixed;
+  border-radius: 50px;
+  float: right;
+  bottom: 100px;
+  right: 50px;
+  display: block;
+  height: 50px;
+  width: auto;
+}
+/*# sourceMappingURL=styles.css.map */
