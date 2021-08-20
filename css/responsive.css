@@ -50,7 +50,7 @@
   .home-footer-nav {
     display: none;
   }
-  #btn-home {
+  .btn-home {
     display: none;
   }
   #home {
@@ -80,7 +80,7 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  #shows .fecha1 .fecha1 {
+  #shows .fecha2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -92,7 +92,7 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  #shows .fecha1 .fecha2 {
+  #shows .fecha3 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -104,7 +104,7 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  #shows .fecha1 .fecha3 {
+  #shows .fecha4 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -116,7 +116,7 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  #shows .fecha1 .fecha4 {
+  #shows .fecha5 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -128,7 +128,7 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  #shows .fecha1 .fecha5 {
+  #shows .fecha6 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -140,7 +140,7 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  #shows .fecha1 .fecha6 {
+  #shows .fecha7 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -152,7 +152,7 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  #shows .fecha1 .fecha7 {
+  #shows .fecha8 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -164,7 +164,7 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  #shows .fecha1 .fecha8 {
+  #shows .fecha9 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -176,7 +176,7 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  #shows .fecha1 .fecha9 {
+  #shows .fecha10 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -188,19 +188,7 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  #shows .fecha1 .fecha10 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  #shows iframe {
+  iframe {
     width: 500px;
     height: 600px;
   }

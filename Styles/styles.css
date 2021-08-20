@@ -296,3 +296,7 @@ footer{
     padding-top: 25px;
 }
 /*-----SHOWS-----*/
+
+.btn-home {
+    display: none;
+}
