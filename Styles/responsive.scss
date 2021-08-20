@@ -49,11 +49,22 @@ iframe{
 
 }
     }
+    .home-footer-nav{
+        display: none;
+    }
     
 }
 
 @media (min-width:481px) {
-    
+    .home-footer-nav{
+        display: none;
+    }
+    #btn-home{
+        display: none;
+    }
+    #home{
+        height: 100vh;
+    }
     #banda{
         img{
             max-width: 600px;
@@ -67,11 +78,22 @@ iframe{
             font-size: 2em;
         }
     img{
-    max-width: 100vw; 
+    width: 500px; 
     }
+
+@for $i from 1 through 10 {
+    .fecha#{$i}{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+}
+
+
+       }
 iframe{
-    width:100vw;
-    height: 100vh;
+    width:500px;
+    height: 600px;
 
 }
     
@@ -110,7 +132,8 @@ footer{
             text-decoration: none;
             font-family: 'Mate SC', serif;
             color:silver;
-            border-right: 1px solid black ;
+
+         
         }
     }
 }
