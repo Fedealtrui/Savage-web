@@ -239,4 +239,8 @@ footer .home-footer-nav li a {
   font-family: 'Mate SC', serif;
   color: silver;
 }
+
+.nav-logo img {
+  margin-top: 8px;
+}
 /*# sourceMappingURL=responsive.css.map */
